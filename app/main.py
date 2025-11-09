@@ -9,7 +9,7 @@ class CleanUpFile:
 
     def __enter__(self) -> None:
         self.file = open(self.filename, "w")
-        return self
+        return self.
 
     def __exit__(
             self,
